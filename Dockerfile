@@ -16,7 +16,7 @@ RUN mv composer.phar /usr/bin/composer
 ENV DIR /app
 ENV PORT 8888
 
-# run symfony4 app
+# run symfony4 application
 EXPOSE $PORT
 COPY ./app $DIR
 WORKDIR $DIR
